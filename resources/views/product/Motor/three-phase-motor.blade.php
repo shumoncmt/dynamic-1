@@ -21,7 +21,7 @@
                     <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Product</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">THREE PHASE MOTOR</li>
+                    <li class="breadcrumb-item active" aria-current="page">Three Phase Motor</li>
                     </ol>
             </nav>
     </div>

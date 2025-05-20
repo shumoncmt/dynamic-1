@@ -24,7 +24,7 @@
                     <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Product</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">SINGLE PHASE MOTOR</li>
+                    <li class="breadcrumb-item active" aria-current="page">Single Phase Motor</li>
                     </ol>
             </nav>
     </div>

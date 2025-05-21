@@ -28,7 +28,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-6 service-info " style="margin-top:20px;">
-         <div class="item"><a href={{Route('electricmotor')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/pump/High-Efficiency-Centrifugal-Pump-2GKS.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electricmotor')}}>
+         <div class="item"><a href={{Route('electricmotor')}} class="post-image view image_hover">			<img src= "{{ asset('img/catagory/pump/2gk-dynamic-centrifugal-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electricmotor')}}>
                </a>
             </div>
         </div>

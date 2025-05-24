@@ -6,13 +6,9 @@
     <title>DMP Dynamic Centrifugal pump in Bangladesh - Best industrial electric motor in Bangladesh | Dynamic Motor</title>
     <meta name="description" content="The efficiency and reliability of DMP Centrifugal Pumps. Explore our range of high-performance pumps designed for various industrial applications." />
     <meta name="keywords" content="DMP Centrifugal Pumps offer superior performance and durability.">
-    
     @include('master.header')
-
 </head>
 <body>
-
-
 <section class="diff-offer-wrapper">
     <div class="container">
       <div class="row ">
@@ -26,17 +22,15 @@
             </nav>
     </div>
     </div>
-
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 service-info " style="margin-top:15px;">
-             <div class="item"><a href={{Route('electricmotor')}} class="post-image view image_hover">			<img src= "{{ asset('img/catagory/pump/dpm-centrifugal-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electricmotor')}}>
+             <div class="item"><a href={{Route('industrialpump')}} class="post-image view image_hover">			<img src= "{{ asset('img/catagory/pump/dpm-centrifugal-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('industrialpump')}}>
                    </a>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-8" style="margin-top: 20px; margin-left:15px">
+            <div class="col-md-6 col-sm-8" style="margin-top: 15px; margin-left:15px">
                 <h3>DPM Centrifugal Pump</h3>
-              
                 <span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span>
                 <p></p>
                 <h5>Application Limits</h5>
@@ -49,11 +43,9 @@
                   <li>pH: 6.5 to 8.5</li>
                 </ul>
                 <button type="button" class="btn btn-outline-success"  style="margin:4px;"> <a href="#">Inquire Now </a>  </button> <button type="button" class="btn btn-outline-success bi bi-download"> <a href="/img/product/pump/pdf/dpm-centrifugal-pump.pdf"> Brochure</a></button>
-    
             </div>
         </div>
       </div>
-       
     <div class="container my-5">
       <div class="additional-details my-5 ">
        <h3>Product Details</h3>
@@ -463,55 +455,54 @@
         </div>
      
     
-     <div class="row ">
-            <h2 style="margin-bottom:10px; margin-top:25px">Related Product</h2> 
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('electricmotor')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/Dynamic-Motor.png')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electricmotor')}}>
-                    <h4>Dynamic Motor</h4></a>
-                  <p style="text-align:justify" >Dynamic Motors strives to find you the best deals in the pre-owned vehicle market. As a company, we have years of experience and expertise.</p>
-                  <h6><a href={{Route('electricmotor')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('electricmotor')}} class="post-image view image_hover">			<img src="{{ asset('img/product/Dynamic-Motor.png')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electricmotor')}}>
-                    <h4>Dynamic Motor</h4></a>
-                  <p style="text-align:justify" >Dynamic Motors strives to find you the best deals in the pre-owned vehicle market. As a company, we have years of experience and expertise.</p>
-                  <h6><a href={{Route('electricmotor')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('industrialpump')}} class="post-image view image_hover">		<img src= "{{ asset('img/product/Dynamic-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('industrialpump')}}>
-                    <h4>Dynamic Pump</h4></a>
-                  <p style="text-align:justify">Dynamic pumps use kinetic energy to move liquids, like water and oil, from a lower to a higher pressure.</p>
-                  <h6><a href={{Route('industrialpump')}}>Read more</a></h6>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('blower')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Dynamic-Blower.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('blower')}}>
-                    <h4>Dynamic Blower</h4></a>
-                  <p style="text-align:justify">Roots blowers operate by trapping a fixed amount of fluid or gas and expelling it against the system's pressure.</p>
-                  <h6><a href={{Route('blower')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('electromageneticflowmeter')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Flow-meter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electromageneticflowmeter')}}>
-                    <h4>Dynamic Flow Meter</h4></a>
-                  <p style="text-align:justify">Dynamic Flow Computers is one of the main global providers of advanced flow measurement solutions.</p>
-                  <h6><a href={{Route('electromageneticflowmeter')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('electromageneticflowmeter')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Flow-meter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electromageneticflowmeter')}}>
-                    <h4>Dynamic Flow Meter</h4></a>
-                  <p style="text-align:justify">Dynamic Flow Computers is one of the main global providers of advanced flow measurement solutions.</p>
-                  <h6><a href={{Route('electromageneticflowmeter')}}>Read more</a></h6>
-                </div>
-              </div>
+<div class="row ">
+        <h2 style="margin-bottom:10px; margin-top:15px">Related Product</h2> 
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('DplSeriesDynamicPump')}} class="post-image view image_hover">			<img src= "{{ asset('img/catagory/pump/dpl-series-dynamic-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('DplSeriesDynamicPump')}}>
+                <h4>DPL Series Dynamic Pump</h4></a>
+              <p style="text-align:justify" >Explore the DPL Series Dynamic Pump! Boost efficiency with cutting-edge technology, durability, and performance. Discover the perfect pump solution today!</p>
+              <h6><a href={{Route('DplSeriesDynamicPump')}}>Read more</a></h6>
             </div>
           </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('dpmCentrifugalPump')}} class="post-image view image_hover">			<img src="{{ asset('img/catagory/pump/dpm-centrifugal-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('dpmCentrifugalPump')}}>
+                <h4>DPM Centrifugal Pump</h4></a>
+              <p style="text-align:justify" >Discover the efficiency and reliability of DPM Centrifugal Pumps for all your industrial needs. High performance, low maintenance - the pump solution you can trust!</p>
+              <h6><a href={{Route('dpmCentrifugalPump')}}>Read more</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('gkdynamiccentrifugalpump')}} class="post-image view image_hover"><img src="{{ asset('img/catagory/pump/2gk-dynamic-centrifugal-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('gkdynamiccentrifugalpump')}}>
+                <h4>2GK Dynamic Centrifugal Pump</h4></a>
+              <p style="text-align:justify">Discover the efficiency of the 2GK Dynamic Centrifugal Pump—delivering top performance and reliability for all industrial needs. Learn more today!</p>
+              <h6><a href={{Route('gkdynamiccentrifugalpump')}}>Read more</a></h6>
+            </div>
+          </div>
+        </div>
+                <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('DpSeriesDynamicPump')}} class="post-image view image_hover">			<img src="{{ asset('img/catagory/pump/dp-series-dynamic-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('DpSeriesDynamicPump')}}>
+                <h4>DP Series Dynamic Pump</h4></a>
+              <p style="text-align:justify" >Discover the DP Series Dynamic Pump: Efficient, reliable, and powerful solutions for all your fluid handling needs. Enhance performance with our cutting-edge technology.</p>
+              <h6><a href={{Route('DpSeriesDynamicPump')}}>Read more</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('DplSeriesDynamicPump')}} class="post-image view image_hover">			<img src="{{ asset('img/catagory/pump/dpl-series-dynamic-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('DplSeriesDynamicPump')}}>
+                <h4>DPL Series Dynamic Pump</h4></a>
+              <p style="text-align:justify" >Explore the DPL Series Dynamic Pump! Boost efficiency with cutting-edge technology, durability, and performance. Discover the perfect pump solution today!</p>
+              <h6><a href={{Route('DplSeriesDynamicPump')}}>Read more</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href="#" class="post-image view image_hover">			<img src="{{ asset('img/catagory/pump/dynamic-submersible-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href="#">
+                <h4>Dynamic Submersible Pump</h4></a>
+              <p style="text-align:justify" >Discover the power of Dynamic Submersible Pumps - efficient, reliable, and designed for deep water solutions. Boost your water management today!</p>
+              <h6><a href="#">Read more</a></h6>
+            </div>
+          </div> 
+        </div>
     </div>
   </section>
 

@@ -21,7 +21,7 @@
                                     <li class="breadcrumb-item"><a href="#">Category</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Pump</li>
                                     </ol>
-                            </nav>
+                                </nav>
                 </div>
             </div>
             <div class="container">

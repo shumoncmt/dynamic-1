@@ -5,17 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ring Blower in Bangladesh - Best industrial electric motor in Bangladesh | Dynamic Motor</title>
     <meta name="description" content="Discover high-quality ring blowers in Bangladesh. Our website offers a comprehensive range of products, specifications, and expert guidance for your needs." />
-    <meta name="keywords" content="Find the best ring blowers in Bangladesh with our extensive selection and expert insights.">
-    
+    <meta name="keywords" content="Find the best ring blowers in Bangladesh with our extensive selection and expert insights."> 
     @include('master.header')
-
 </head>
 <body>
-
   <section class="diff-offer-wrapper">
      <div class="container">
        <div class="row ">
-        <h2 style="margin-bottom:10px; margin-top:25px">Ring Blower</h2>
+        <h2 style="margin-bottom:10px; margin-top:15px">Ring Blower</h2>
                 <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                     <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -27,12 +24,12 @@
      </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6 service-info " style="margin-top:25px;">
-             <div class="item"><a href={{Route('ringblower')}} class="post-image view image_hover">			<img src= "{{ asset('img/catagory/Ring-Blower-GHS-Series.webp')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('ringblower')}}>
+            <div class="col-lg-4 col-md-4 col-sm-6 service-info " style="margin-top:15px;">
+             <div class="item"><a href={{Route('ringblower')}} class="post-image view image_hover">			<img src= "{{ asset('img/catagory/blower/ring-blower.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('ringblower')}}>
                   </a>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-8" style="margin-top: 25px; margin-left:15px">
+            <div class="col-md-6 col-sm-8" style="margin-top: 15px; margin-left:15px">
                 <h2>Ring Blower</h2>
                 <span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span>
                 <p></p>
@@ -1004,53 +1001,30 @@
     
     <div class="row ">
             <h2 style="margin-bottom:10px; margin-top:25px">Related Product</h2> 
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('vacuumrootsblower')}} class="post-image view image_hover">			<img src= "{{ asset('img/catagory/Vacuum-Roots-Blower.webp')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('vacuumrootsblower')}}>
-                    <h4>Vacuum Roots Blower</h4></a>
-                  <p style="text-align:justify" >High-performance blowers designed for various applications. Explore our extensive range of reliable and efficient blower solutions for your needs.</p>
-                  <h6><a href={{Route('vacuumrootsblower')}}>Read more</a></h6>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+                  <div class="item"><a href={{Route('pressurerootsblowers')}} class="post-image view image_hover">			<img src="{{ asset('img/catagory/blower/pressure-roots-blowers.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('pressurerootsblowers')}}>
+                      <h4>Pressure Roots Blowers</h4></a>
+                    <p style="text-align:justify" >High-performance blowers designed for various applications. Explore our extensive range of reliable and efficient blower solutions for your needs.</p>
+                    <h6><a href={{Route('pressurerootsblowers')}}>Read more</a></h6>
+                  </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('ringblower')}} class="post-image view image_hover">			<img src="{{ asset('img/catagory/Ring-Blower-GHS-Series.webp')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('ringblower')}}>
-                    <h4>Ring Blower – GHS Series</h4></a>
-                  <p style="text-align:justify" >There are many applications for RO, including water and wastewater treatment, food and beverage processing, and pharmaceutical production.</p>
-                  <h6><a href={{Route('ringblower')}}>Read more</a></h6>
+                <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+                  <div class="item"><a href={{Route('ringblower')}} class="post-image view image_hover"><img src= "{{ asset('img/catagory/blower/ring-blower.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('ringblower')}}>
+                      <h4>Ring Blower – GHS Series</h4></a>
+                    <p style="text-align:justify">There are many applications for RO, including water and wastewater treatment, food and beverage processing, and pharmaceutical production.</p>
+                    <h6><a href={{Route('ringblower')}}>Read more</a></h6>
+                  </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('pressurerootsblowers')}} class="post-image view image_hover"><img src="{{ asset('img/catagory/Pressure-Roots-Blowers.webp')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('pressurerootsblowers')}}>
-                    <h4>Pressure Roots Blowers</h4></a>
-                  <p style="text-align:justify">High-performance blowers designed for various applications. Explore our extensive range of reliable and efficient blower solutions for your needs.</p>
-                  <h6><a href={{Route('pressurerootsblowers')}}>Read more</a></h6>
+                <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+                  <div class="item"><a href={{Route('vacuumrootsblower')}} class="post-image view image_hover">		<img src= "{{ asset('img/catagory/blower/vacuum-roots-blower.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('vacuumrootsblower')}}>
+                      <h4>Vacuum Roots Blower</h4></a>
+                    <p style="text-align:justify">High-performance blowers designed for various applications. Explore our extensive range of reliable and efficient blower solutions for your needs.</p>
+                    <h6><a href={{Route('vacuumrootsblower')}}>Read more</a></h6>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('blower')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Dynamic-Blower.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('blower')}}>
-                    <h4>Dynamic Blower</h4></a>
-                  <p style="text-align:justify">Roots blowers operate by trapping a fixed amount of fluid or gas and expelling it against the system's pressure.</p>
-                  <h6><a href={{Route('blower')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('frpvessel')}} class="post-image view image_hover"><img src="{{ asset('img/product/FRP-Vessel.jpg')}}"  alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('frpvessel')}}>
-                    <h4>Dynamic Vessel</h4></a>
-                  <p style="text-align:justify">FRP is an updated composite material used for chemical plant appliances and equipment, including vessels and tanks.</p>
-                  <h6><a href={{Route('frpvessel')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('electromageneticflowmeter')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Flow-meter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electromageneticflowmeter')}}>
-                    <h4>Dynamic Flow Meter</h4></a>
-                  <p style="text-align:justify">Dynamic Flow Computers is one of the main global providers of advanced flow measurement solutions.</p>
-                  <h6><a href={{Route('electromageneticflowmeter')}}>Read more</a></h6>
-                </div>
-              </div>
-            </div>
-          </div>
+         </div>
+        </div>
         </div>
     </section>
 

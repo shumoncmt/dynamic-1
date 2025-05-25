@@ -11,9 +11,18 @@
 
 </head>
 <body>
-
   <section class="diff-offer-wrapper">
     <div class="container">
+      <div class="row ">
+        <h2 style="margin-bottom:10px; margin-top:15px">Dynamic Resin 001X7-2.0</h2>
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Product</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Dynamic Resin 001X7-2.0</li>
+                    </ol>
+            </nav>
+      </div>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 service-info " style="margin-top:80px;">
              <div class="item"><a href={{Route('electricmotor')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/pump/SGT-Centrifugal-Pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electricmotor')}}>
@@ -184,68 +193,52 @@
      
     
     <div class="row ">
-            <h2 style="margin-bottom:10px; margin-top:25px">Related Product</h2> 
-            <div class="row">
-              <div class="col-md-3 col-sm-8 service-info">
-                <div class="item"><a href={{Route('electricmotor')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/Dynamic-Motor.png')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electricmotor')}}>
-                    <h4>Dynamic Motor</h4></a>
-                  <p style="text-align:justify" >Dynamic Motors strives to find you the best deals in the pre-owned vehicle market. As a company, we have years of experience and expertise.</p>
-                  <h6><a href={{Route('electricmotor')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-8 service-info">
-                <div class="item"><a href={{Route('electricmotor')}} class="post-image view image_hover">			<img src="{{ asset('img/product/Dynamic-Motor.png')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electricmotor')}}>
-                    <h4>Dynamic Motor</h4></a>
-                  <p style="text-align:justify" >Dynamic Motors strives to find you the best deals in the pre-owned vehicle market. As a company, we have years of experience and expertise.</p>
-                  <h6><a href={{Route('electricmotor')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-8 service-info">
-                <div class="item"><a href={{Route('roandufmembrane')}} class="post-image view image_hover"><img src="{{ asset('img/product/Dynamic-Ro-membrane.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('roandufmembrane')}}>
-                    <h4>Dynamic RO Membrane</h4></a>
-                  <p style="text-align:justify">There are many applications for RO, including water and wastewater treatment, food and beverage processing, and pharmaceutical production.</p>
-                  <h6><a href={{Route('roandufmembrane')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-8 service-info">
-                <div class="item"><a href={{Route('industrialpump')}} class="post-image view image_hover">		<img src= "{{ asset('img/product/Dynamic-pump.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('industrialpump')}}>
-                    <h4>Dynamic Pump</h4></a>
-                  <p style="text-align:justify">Dynamic pumps use kinetic energy to move liquids, like water and oil, from a lower to a higher pressure.</p>
-                  <h6><a href={{Route('industrialpump')}}>Read more</a></h6>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-3 col-sm-8 service-info">
-                <div class="item"><a href={{Route('blower')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Dynamic-Blower.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('blower')}}>
-                    <h4>Dynamic Blower</h4></a>
-                  <p style="text-align:justify">Roots blowers operate by trapping a fixed amount of fluid or gas and expelling it against the system's pressure.</p>
-                  <h6><a href={{Route('blower')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-8 service-info">
-                <div class="item"><a href={{Route('frpvessel')}} class="post-image view image_hover"><img src="{{ asset('img/product/FRP-Vessel.jpg')}}"  alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('frpvessel')}}>
-                    <h4>Dynamic Vessel</h4></a>
-                  <p style="text-align:justify">FRP is an updated composite material used for chemical plant appliances and equipment, including vessels and tanks.</p>
-                  <h6><a href={{Route('frpvessel')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-8 service-info">
-                <div class="item"><a href={{Route('electromageneticflowmeter')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Flow-meter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electromageneticflowmeter')}}>
-                    <h4>Dynamic Flow Meter</h4></a>
-                  <p style="text-align:justify">Dynamic Flow Computers is one of the main global providers of advanced flow measurement solutions.</p>
-                  <h6><a href={{Route('electromageneticflowmeter')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-8 service-info">
-                <div class="item"><a href={{Route('electromageneticflowmeter')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Flow-meter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electromageneticflowmeter')}}>
-                    <h4>Dynamic Flow Meter</h4></a>
-                  <p style="text-align:justify">Dynamic Flow Computers is one of the main global providers of advanced flow measurement solutions.</p>
-                  <h6><a href={{Route('electromageneticflowmeter')}}>Read more</a></h6>
-                </div>
-              </div>
+          <h2 style="margin-bottom:10px; margin-top:25px">Related Product</h2> 
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('Anthracite')}} class="post-image view image_hover">			<img src="{{ asset('img/product/filtration-media/dynamic-anthracite-cti-80.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('Anthracite')}}>
+                <h4>Dynamic Anthracite CTI 80</h4></a>
+              <p style="text-align:justify" >Discover the sleek look of Dynamic Anthracite. Brighten your space with this stylish, dark finish. Shop now to add style today.</p>
+              <h6><a href={{Route('Anthracite')}}>Read more</a></h6>
             </div>
           </div>
+           <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('Coconutshellactivatedcarbon')}} class="post-image view image_hover">			<img src="{{ asset('img/product/filtration-media/dynamic-coconut-shell-activated-carbon.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('Coconutshellactivatedcarbon')}}>
+                <h4>Coconut Shell Activated Carbon</h4></a>
+              <p style="text-align:justify" >Discover the power of dynamic coconut shell activated carbon. Perfect for filtering air and water. Order now for cleaner results.</p>
+              <h6><a href={{Route('Coconutshellactivatedcarbon')}}>Read more</a></h6>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('DynamicResin3')}} class="post-image view image_hover">			<img src="{{ asset('img/product/filtration-media/dynamic-resin-001x7-2.0.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('DynamicResin3')}}>
+                <h4>Dynamic Resin 001X7-1.3</h4></a>
+              <p style="text-align:justify" >Dynamic Resin 001X7-1.3 in Bangladesh, a versatile solution for various applications. Explore its benefits and features for your projects today</p>
+              <h6><a href={{Route('DynamicResin3')}}>Read more</a></h6>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('Manganesedioxide')}} class="post-image view image_hover">			<img src="{{ asset('img/product/filtration-media/dynamic-manganese-dioxide.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('Manganesedioxide')}}>
+                <h4>Dynamic Manganese Dioxide</h4></a>
+              <p style="text-align:justify" >Discover how dynamic manganese dioxide can boost your batteries and improve energy storage. Learn more about this vital material today.</p>
+              <h6><a href={{Route('Manganesedioxide')}}>Read more</a></h6>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('DynamicResin2')}} class="post-image view image_hover">			<img src="{{ asset('img/product/filtration-media/dynamic-resin-001x7-2.0.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('DynamicResin2')}}>
+                <h4>Dynamic Resin 001X7-2.0</h4></a>
+              <p style="text-align:justify" >Discover Dynamic Resin 001X7-2.0 in Bangladesh, a versatile solution for various applications. Explore its features and benefits for your projects today.</p>
+              <h6><a href={{Route('DynamicResin2')}}>Read more</a></h6>
+            </div>
+          </div>
+         <div class="col-lg-4 col-md-4 col-sm-6 service-info">
+            <div class="item"><a href={{Route('Biocide')}} class="post-image view image_hover">			<img src="{{ asset('img/product/filtration-media/biocide-40.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('Biocide')}}>
+                <h4>Biocide</h4></a>
+              <p style="text-align:justify" >The essential role of biocides in Bangladesh, focusing on their applications, safety standards, and regulatory frameworks for effective management and usage</p>
+              <h6><a href={{Route('Biocide')}}>Read more</a></h6>
+            </div>
+          </div>
+        </div> 
+        </div>
         </div>
     </section>
 

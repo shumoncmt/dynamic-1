@@ -26,14 +26,13 @@
         </div>
       <div class="container">
           <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info " style="margin-top:20px;">
-               <div class="item"><a href={{Route('electricmotor')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/membrane/8inch-water-spiral-module.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electricmotor')}}>
+              <div class="col-lg-4 col-md-4 col-sm-6 service-info " style="margin-top:15px;">
+               <div class="item"><a href={{Route('microdynereverseosmosismembrane')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/membrane/8inch-water-spiral-module.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('microdynereverseosmosismembrane')}}>
                      </a>
                   </div>
               </div>
               <div class="col-md-6 col-sm-8" style="margin-top: 20px; margin-left:15px">
                   <h3>Microdyn Reverse Osmosis Membrane</h3>
-                
                   <span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span><span><img src="{{ asset('img/icon/icon.png')}}" alt=""></span>
                   <p></p>
                   <h5>Key Advantages</h5>

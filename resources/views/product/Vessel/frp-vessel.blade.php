@@ -28,7 +28,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 service-info " style="margin-top:25px;">
-             <div class="item"><a href={{Route('frpvesse')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/FRP-Vessel.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('frpvesse')}}>
+             <div class="item"><a href={{Route('frpvesse')}} class="post-image view image_hover">			<img src= "{{ asset('img/catagory/dynamic-frp-vessel.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('frpvesse')}}>
                    </a>
                 </div>
             </div>

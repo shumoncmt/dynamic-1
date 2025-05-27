@@ -16,7 +16,7 @@
     <div class="container">
       <div class="container">
         <div class="row ">
-          <h2 style="margin-bottom:10px; margin-top:25px">Bag Filter</h2>
+          <h2 style="margin-bottom:10px; margin-top:15px">Bag Filter</h2>
                   <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                       <ol class="breadcrumb">
                       <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -27,7 +27,7 @@
       </div>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-6 service-info " style="margin-top:15px;">
-             <div class="item"><a href={{Route('bagfilter')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/media/bag-filter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('bagfilter')}}>
+             <div class="item"><a href={{Route('bagfilter')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/filter/bag-filter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('bagfilter')}}>
                    </a>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                 <p></p>
                 <h5>General Description</h5>
                   <p>A Bag Filter works by the principle of microfiltration. The liquid is purified in bags by passing small permeable pores. Bag Filters can be used for large amounts of water. The sizes of these pores are between the 1-200 micron.</p> 
-                <button type="button" class="btn btn-outline-success"  style="margin:4px;"> <a href="#">Inquire Now </a>  </button> <button type="button" class="btn btn-outline-success bi bi-download"> <a href="https://greengenesisbd.com/wp-content/uploads/2022/08/2GK-Dynamic-Centrifugal-Pump.pdf"> Brochure</a></button>
+                <button type="button" class="btn btn-outline-success"  style="margin:4px;"> <a href="#">Inquire Now </a>  </button> <button type="button" class="btn btn-outline-success bi bi-download"> <a href="#"> Brochure</a></button>
     
             </div>
         </div>
@@ -91,50 +91,27 @@
      
     
     <div class="row ">
-            <h2 style="margin-bottom:10px; margin-top:25px">Related Product</h2> 
+            <h2 style="margin-bottom:10px; margin-top:15px">Related Product</h2> 
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('bagfilter')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/media/bag-filter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('bagfilter')}}>
+                <div class="item"><a href={{Route('bagfilter')}} class="post-image view image_hover">			<img src= "{{ asset('img/product/filter/bag-filter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('bagfilter')}}>
                     <h4>Bag Filter</h4></a>
                   <p style="text-align:justify" >Discover high-quality bag filters in Bangladesh, designed for efficient air and liquid filtration.</p>
                   <h6><a href={{Route('bagfilter')}}>Read more</a></h6>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('MicronFilterHousing')}} class="post-image view image_hover">			<img src="{{ asset('img/product/media/micron-filter-housing.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('MicronFilterHousing')}}>
+                <div class="item"><a href={{Route('MicronFilterHousing')}} class="post-image view image_hover">			<img src="{{ asset('img/product/filter/micron-filter-cartridge.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('MicronFilterHousing')}}>
                     <h4>Micron Filter Housing</h4></a>
                   <p style="text-align:justify" >Discover high-quality micron filter housings in Bangladesh. Our durable solutions ensure optimal filtration for various applications.</p>
                   <h6><a href={{Route('MicronFilterHousing')}}>Read more</a></h6>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('MicronFilterCartridge')}} class="post-image view image_hover"><img src="{{ asset('img/product/media/cartidge-filter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('MicronFilterCartridge')}}>
+                <div class="item"><a href={{Route('MicronFilterCartridge')}} class="post-image view image_hover"><img src="{{ asset('img/product/filter/micron-filter-housing.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('MicronFilterCartridge')}}>
                     <h4>Micron filter Cartridge</h4></a>
                   <p style="text-align:justify">Discover high-quality micron filter cartridges in Bangladesh. Enhance your filtration systems with our reliable and efficient solutions for clean water.</p>
                   <h6><a href={{Route('MicronFilterCartridge')}}>Read more</a></h6>
-                </div>
-              </div>
-            </div>
-          <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('blower')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Dynamic-Blower.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('blower')}}>
-                    <h4>Dynamic Blower</h4></a>
-                  <p style="text-align:justify">Roots blowers operate by trapping a fixed amount of fluid or gas and expelling it against the system's pressure.</p>
-                  <h6><a href={{Route('blower')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('frpvessel')}} class="post-image view image_hover"><img src="{{ asset('img/product/FRP-Vessel.jpg')}}"  alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('frpvessel')}}>
-                    <h4>Dynamic Vessel</h4></a>
-                  <p style="text-align:justify">FRP is an updated composite material used for chemical plant appliances and equipment, including vessels and tanks.</p>
-                  <h6><a href={{Route('frpvessel')}}>Read more</a></h6>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-                <div class="item"><a href={{Route('electromageneticflowmeter')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Flow-meter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electromageneticflowmeter')}}>
-                    <h4>Dynamic Flow Meter</h4></a>
-                  <p style="text-align:justify">Dynamic Flow Computers is one of the main global providers of advanced flow measurement solutions.</p>
-                  <h6><a href={{Route('electromageneticflowmeter')}}>Read more</a></h6>
                 </div>
               </div>
             </div>

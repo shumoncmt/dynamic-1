@@ -30,46 +30,27 @@
     <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-            <div class="item"><a href={{Route('bagfilter')}} class="post-image view image_hover">			<img src="{{ asset('img/product/media/bag-filter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('bagfilter')}}>
+            <div class="item"><a href={{Route('bagfilter')}} class="post-image view image_hover">			<img src="{{ asset('img/product/filter/bag-filter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('bagfilter')}}>
                 <h4>Bag Filter</h4></a>
               <p style="text-align:justify" >Discover the efficiency of our Bag Filters for clean air & optimal performance. Perfect for industrial applications. Get superior filtration today</p>
               <h6><a href={{Route('bagfilter')}}>Read more</a></h6>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-            <div class="item"><a href={{Route('MicronFilterCartridge')}} class="post-image view image_hover"><img src= "{{ asset('img/product/media/cartidge-filter.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('MicronFilterCartridge')}}>
+            <div class="item"><a href={{Route('MicronFilterCartridge')}} class="post-image view image_hover"><img src= "{{ asset('img/product/filter/micron-filter-cartridge.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('MicronFilterCartridge')}}>
               <h4>Micron Filter Cartridge</h4></a>
               <p style="text-align:justify">Discover top-quality Micron Filter Cartridges for optimal filtration. Enhance water purity & efficiency. Perfect choice for home & industrial use. Learn more today!</p>
               <h6><a href={{Route('MicronFilterCartridge')}}>Read more</a></h6>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-            <div class="item"><a href={{Route('MicronFilterHousing')}} class="post-image view image_hover">		<img src= "{{ asset('img/product/media/micron-filter-housing.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('MicronFilterHousing')}}>
+            <div class="item"><a href={{Route('MicronFilterHousing')}} class="post-image view image_hover">		<img src= "{{ asset('img/product/filter/micron-filter-housing.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('MicronFilterHousing')}}>
                 <h4>Micron Filter Housing</h4></a>
               <p style="text-align:justify">Discover top-quality Micron Filter Housing solutions for clean water and air. Durable, efficient, and cost-effective filtration to enhance your systems.</p>
               <h6><a href={{Route('MicronFilterHousing')}}>Read more</a></h6>
             </div>
           </div>
         </div>
-        {{-- <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-            <div class="item"><a href={{Route('electricmotor')}} class="post-image view image_hover">			<img src="{{ asset('img/product/Dynamic-Motor.png')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('electricmotor')}}>
-                <h4>Ro Membrane Housing</h4></a>
-              <p style="text-align:justify" >Discover durable and efficient RO membrane housing solutions for clean water. Explore top-quality options tailored to meet your filtration needs today!</p>
-              <h6><a href={{Route('electricmotor')}}>Read more</a></h6>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-            <div class="item"><a href={{Route('roandufmembrane')}} class="post-image view image_hover"><img src= "{{ asset('img/product/Dynamic-Ro-membrane.jpg')}}" alt="" class="img-responsive zoom_img_effect"></a><a href={{Route('roandufmembrane')}}>
-                <h4>Ro Membrane</h4></a>
-              <p style="text-align:justify">Discover high-quality RO membranes for pure, clean water. Enhance filtration efficiency with our top-rated, reliable solutions. Shop now for better water today!</p>
-              <h6><a href={{Route('roandufmembrane')}}>Read more</a></h6>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 service-info">
-
-          </div>
-        </div> --}}
       </div>
     </section>
 

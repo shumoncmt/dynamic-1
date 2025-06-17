@@ -582,7 +582,6 @@
 
 </html>
 
-
 @include('master.footer')
 
 </body>

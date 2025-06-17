@@ -20,28 +20,12 @@
 <!-- Customized Bootstrap Stylesheet -->
 
 
-<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-
 <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 
 <!-- Template Stylesheet -->
-<!-- <link href="css/style.css" rel="stylesheet"> -->
 
 <link rel="stylesheet" href="{{ asset('css/product.css') }}">
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
-
-
-
-
-
-<!-- Spinner Start -->
-<!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div> -->
-<!-- Spinner End -->
 
 
 <!-- Topbar Start -->
@@ -77,7 +61,6 @@
         </div>
     </div>
 </div>
-
 <!-- Topbar End -->
 
 <!-- Navbar & Hero Start -->
@@ -90,7 +73,7 @@
             <span class="fa fa-bars"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto pt-2 pt-lg-0">
+            <div class="navbar-nav mx-auto pt-2 pt-lg-0">
                 <a href={{Route('home')}} class="nav-item nav-link">Home</a>
                 <div class="nav-item dropdown ">
                     <a href={{Route('about')}} class="nav-link text-dark">About</a>
@@ -128,8 +111,6 @@
         </div>
     </nav>
 </div>
-
-
 <!-- Navbar & Hero End -->
 
 <!-- Modal Search Start -->
@@ -151,45 +132,3 @@
     </div>
 </div>
 <!-- Modal Search End -->
-
-<!-- Header Start -->
-<!-- <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Features</h4>
-                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-secondary">Feature</li>
-                </ol>    
-            </div>
-        </div> -->
-<!-- Header End -->
-
-{{-- <style type="text/css" media="all">
-    body {
-    cursor: none; /* Hide default cursor */
-    }
-
-    .custom-cursor {
-    width: 25px;
-    height: 25px;
-    border: 3px solid #135447;
-    border-radius: 50%;
-    position: fixed;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    transition: transform 0.05s ease;
-    z-index: 9999;
-    }
-</style>
-
-<div class="custom-cursor"></div>
-<script>
-        const cursor = document.querySelector('.custom-cursor');
-            document.addEventListener('mousemove', (e) => {
-            cursor.style.left = e.clientX + 'px';
-            cursor.style.top = e.clientY + 'px';
-        });
-</script> --}}
-
-<!-- Carousel End -->
